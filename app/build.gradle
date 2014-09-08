@@ -2,20 +2,21 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 20
-    buildToolsVersion "20.0.0"
-
+    buildToolsVersion '20.0.0'
     defaultConfig {
-        applicationId "myfirstapp.example.com.myfirstapp"
-        minSdkVersion 10
-        targetSdkVersion 20
+        applicationId 'myfirstapp.example.com.myfirstapp'
+        minSdkVersion 8
+        targetSdkVersion 10
         versionCode 1
-        versionName "1.0"
+        versionName '1.0'
     }
     buildTypes {
         release {
             runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    productFlavors {
     }
 }
 
