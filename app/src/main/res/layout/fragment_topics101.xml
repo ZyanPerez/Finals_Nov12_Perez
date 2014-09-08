@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="myfirstapp.example.com.myfirstapp.topics101$PlaceholderFragment"
+    >
+   <!-- android:id="@+id/"-->
+
+
+
+
+    <Button
+        android:layout_width="@dimen/abc_search_view_preferred_width"
+        android:layout_height="wrap_content"
+        android:text="Algorithm"
+        android:id="@+id/btn_algo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="goToAlgorithms"
+        android:background="#ff0071aa"
+        />
+
+
+
+    <Button
+        android:layout_width="@dimen/abc_search_view_preferred_width"
+        android:layout_height="wrap_content"
+        android:text="Computational Complexity"
+        android:id="@+id/btn_complex"
+        android:layout_below="@+id/btn_algo"
+        android:layout_centerHorizontal="true"
+        android:background="#0071AA"
+        android:layout_marginBottom="5dp"
+        android:onClick="goToComputational"/>
+
+
+    <Button
+        android:layout_width="@dimen/abc_search_view_preferred_width"
+        android:layout_height="wrap_content"
+        android:text="Searching and Sorting"
+        android:id="@+id/btn_search"
+        android:layout_below="@+id/btn_complex"
+        android:layout_centerHorizontal="true"
+        android:background="#0071AA"
+        android:layout_marginBottom="5dp"
+        android:onClick="goToSorting"/>
+
+    <Button
+        android:layout_width="@dimen/abc_search_view_preferred_width"
+        android:layout_height="wrap_content"
+        android:text="Abstract Data Types and Pointers"
+        android:id="@+id/btn_abstract"
+        android:layout_below="@+id/btn_search"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="#0071AA"
+        android:onClick="goToDataTypes"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bookshelf"
+        android:scaleType="fitEnd"
+        />
+
+
+</RelativeLayout>
