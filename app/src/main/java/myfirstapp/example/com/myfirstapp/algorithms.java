@@ -16,7 +16,11 @@ import myfirstapp.example.com.myfirstapp.R;
 
 public class algorithms extends ActionBarActivity {
 
-
+    public void goToA1(View v)
+    {
+        Intent intent = new Intent(this, a1.class);
+        startActivity(intent);
+    }
 
 
 

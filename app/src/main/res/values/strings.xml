@@ -18,7 +18,18 @@
     <string name="title_activity_processes">Processes</string>
     <string name="title_activity_dos">MS DOS Commands</string>
     <string name="title_activity_relational">Relational DB Concepts</string>
-    <string name="title_activity_db2">Getting Started with DB2</string>
+    <string name="title_activity_db2">Getting Started with Data Studio</string>
     <string name="title_activity_sql">Introduction to SQL and DB Objects</string>
+    <string name="title_activity_intro1">intro1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_intro2">intro2</string>
+    <string name="title_activity_intro3">intro3</string>
+    <string name="title_activity_intro4">intro4</string>
+    <string name="title_activity_os1">os1</string>
+    <string name="title_activity_os2">os2</string>
+    <string name="title_activity_proc1">proc1</string>
+    <string name="title_activity_proc2">proc2</string>
+    <string name="title_activity_dos1">dos1</string>
+    <string name="title_activity_dos2">dos2</string>
 
 </resources>

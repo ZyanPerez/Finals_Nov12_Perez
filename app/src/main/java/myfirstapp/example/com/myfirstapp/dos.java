@@ -1,5 +1,6 @@
 package myfirstapp.example.com.myfirstapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -14,7 +15,11 @@ import android.os.Build;
 import myfirstapp.example.com.myfirstapp.R;
 
 public class dos extends ActionBarActivity {
-
+    public void goToDos1(View v)
+    {
+        Intent intent = new Intent(this, dos1.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,5 +1,6 @@
 package myfirstapp.example.com.myfirstapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -14,6 +15,13 @@ import android.os.Build;
 import myfirstapp.example.com.myfirstapp.R;
 
 public class sorting extends ActionBarActivity {
+
+
+    public void goToS1(View v)
+    {
+        Intent intent = new Intent(this, s1.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

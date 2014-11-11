@@ -34,7 +34,7 @@
     <Button
         android:layout_width="@dimen/abc_search_view_preferred_width"
         android:layout_height="wrap_content"
-        android:text="Getting Started with DB2"
+        android:text="Getting Started with Data Studio"
         android:id="@+id/btn_db2"
         android:layout_below="@+id/btn_relational"
         android:layout_centerHorizontal="true"
@@ -45,7 +45,7 @@
     <Button
         android:layout_width="@dimen/abc_search_view_preferred_width"
         android:layout_height="wrap_content"
-        android:text="Introduction to SQL and Database Objects"
+        android:text="Backup And Recovery"
         android:id="@+id/btn_sql"
         android:layout_below="@+id/btn_db2"
         android:layout_centerHorizontal="true"

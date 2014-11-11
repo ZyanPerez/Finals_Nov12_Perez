@@ -8,20 +8,40 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="myfirstapp.example.com.myfirstapp.algorithms$PlaceholderFragment">
 
-    <TextView
-        android:text="@string/proto"
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/white"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp" />
+
 
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/bookshelf"
-        android:scaleType="fitEnd"/>
+        android:id="@+id/imageView2"
+        android:src="@drawable/a1"
+        android:layout_above="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+    <!--a1 yan-->
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/button"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:onClick="goToA1"/>
 
 
 </RelativeLayout>

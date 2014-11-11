@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="myfirstapp.example.com.myfirstapp"
-    >
-
+    package="myfirstapp.example.com.myfirstapp" >
 
     <application
         android:allowBackup="true"
@@ -18,8 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity
             android:name=".subjects"
             android:label="@string/title_activity_subjects" >
@@ -27,8 +23,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.MainActivity" />
         </activity>
-
-
         <activity
             android:name=".algorithms"
             android:label="@string/title_activity_algorithms" >
@@ -36,8 +30,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics101" />
         </activity>
-
-
         <activity
             android:name=".topics101"
             android:label="@string/title_activity_topics101" >
@@ -45,7 +37,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.subjects" />
         </activity>
-
         <activity
             android:name=".topics103"
             android:label="@string/title_activity_topics103" >
@@ -53,7 +44,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.subjects" />
         </activity>
-
         <activity
             android:name=".topics113"
             android:label="@string/title_activity_topics113" >
@@ -61,7 +51,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.subjects" />
         </activity>
-
         <activity
             android:name=".topics201"
             android:label="@string/title_activity_topics201" >
@@ -69,7 +58,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.subjects" />
         </activity>
-
         <activity
             android:name=".computational"
             android:label="@string/title_activity_computational" >
@@ -77,7 +65,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics101" />
         </activity>
-
         <activity
             android:name=".sorting"
             android:label="@string/title_activity_sorting" >
@@ -85,7 +72,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics101" />
         </activity>
-
         <activity
             android:name=".datatypes"
             android:label="@string/title_activity_datatypes" >
@@ -93,7 +79,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics101" />
         </activity>
-
         <activity
             android:name=".intro"
             android:label="@string/title_activity_intro" >
@@ -101,7 +86,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics103" />
         </activity>
-
         <activity
             android:name=".os"
             android:label="@string/title_activity_os" >
@@ -109,7 +93,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics103" />
         </activity>
-
         <activity
             android:name=".processes"
             android:label="@string/title_activity_processes" >
@@ -117,7 +100,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics103" />
         </activity>
-
         <activity
             android:name=".dos"
             android:label="@string/title_activity_dos" >
@@ -125,7 +107,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics113" />
         </activity>
-
         <activity
             android:name=".relational"
             android:label="@string/title_activity_relational" >
@@ -133,7 +114,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics201" />
         </activity>
-
         <activity
             android:name=".db2"
             android:label="@string/title_activity_db2" >
@@ -141,13 +121,292 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics201" />
         </activity>
-
         <activity
             android:name=".sql"
             android:label="@string/title_activity_sql" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".s1"
+            android:label="@string/title_activity_sorting" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".s2"
+            android:label="@string/title_activity_sorting" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".s4"
+            android:label="@string/title_activity_sorting" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".s3"
+            android:label="@string/title_activity_sorting" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".c1"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".c2"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".c3"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".c4"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".c5"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".c6"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".a1"
+            android:label="@string/title_activity_algorithms" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".a2"
+            android:label="@string/title_activity_algorithms" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".a"
+            android:label="@string/title_activity_algorithms" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".d1"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".d2"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".d3"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".d4"
+            android:label="@string/title_activity_computational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics101" />
+        </activity>
+        <activity
+            android:name=".r1"
+            android:label="@string/title_activity_relational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".r2"
+            android:label="@string/title_activity_relational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".r3"
+            android:label="@string/title_activity_relational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".r4"
+            android:label="@string/title_activity_relational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".r5"
+            android:label="@string/title_activity_relational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".r6"
+            android:label="@string/title_activity_relational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".r7"
+            android:label="@string/title_activity_relational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".r8"
+            android:label="@string/title_activity_relational" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".dbb1"
+            android:label="@string/title_activity_db2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".dbb2"
+            android:label="@string/title_activity_db2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".sq1"
+            android:label="@string/title_activity_sql" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".sq2"
+            android:label="@string/title_activity_sql" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".sq3"
+            android:label="@string/title_activity_sql" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics201" />
+        </activity>
+        <activity
+            android:name=".intro1"
+            android:label="@string/title_activity_intro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics103" />
+        </activity>
+        <activity
+            android:name=".intro2"
+            android:label="@string/title_activity_intro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics103" />
+        </activity>
+        <activity
+            android:name=".intro3"
+            android:label="@string/title_activity_intro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics103" />
+        </activity>
+        <activity
+            android:name=".intro4"
+            android:label="@string/title_activity_intro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics103" />
+        </activity>
+        <activity
+            android:name=".os1"
+            android:label="@string/title_activity_os" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics103" />
+        </activity>
+        <activity
+            android:name=".os2"
+            android:label="@string/title_activity_os" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics103" />
+        </activity>
+        <activity
+            android:name=".proc1"
+            android:label="@string/title_activity_processes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics103" />
+        </activity>
+        <activity
+            android:name=".proc2"
+            android:label="@string/title_activity_processes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics103" />
+        </activity>
+        <activity
+            android:name=".dos1"
+            android:label="@string/title_activity_dos" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics113" />
+        </activity>
+        <activity
+            android:name=".dos2"
+            android:label="@string/title_activity_dos" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="myfirstapp.example.com.myfirstapp.topics113" />
         </activity>
     </application>
 
